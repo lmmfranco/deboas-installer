@@ -3,7 +3,7 @@ set -e
 THIS_EXEC=$(realpath "$0")
 ROOT_DIR=$(dirname -- "$THIS_EXEC")
 
-icon="$ROOT_DIR/sloth.png"
+icon="$ROOT_DIR/preguica.png"
 executable="$ROOT_DIR/launch.sh"
 desktop_file="lmmfranco-deboas.desktop"
 

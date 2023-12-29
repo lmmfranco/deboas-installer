@@ -1,5 +1,7 @@
 # DEBoas Installer
 
+![preguica.png](preguica.png)
+
 Deboas Installer is a VERY simple shell script for quickly installing Debian packages. It was created simply because I was tired of having to open a terminal and type `sudo dpkg -i <file>` every time I wanted to install a .deb file (Talking about you, discord).
 
 ## Installation
@@ -32,4 +34,8 @@ To uninstall Deboas Installer, run the following command:
 ./uninstall.sh
 ```
 
-This will remove the .desktop file from your system.
+This will remove the .desktop file from your system. You may want to remove the repository folder as well after that.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
+App icon was designed by [Manuo](https://twitter.com/m4nvo)
