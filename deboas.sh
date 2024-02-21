@@ -36,10 +36,10 @@ else
     pause
 
     log "${yellow}Running:${cyan} sudo dpkg -i $1"
-    sudo dpkg -i "$1"
+    sudo dpkg -i "$1" || true
 
-    log "${yellow}\nRunning:${cyan} sudo apt install -f"
-    sudo apt install -f
+    log "${yellow}\nRunning:${cyan} sudo apt install --fix-broken"
+    sudo apt install --fix-broken
 
     log "${yellow}\nRunning:${cyan} sudo apt autoremove -y"
     sudo apt autoremove -y
